@@ -1,0 +1,49 @@
+public class Lesson01 {
+
+    public String lessonMessage = "";
+    public String friedEgg = "";
+
+    public void StartLesson()
+    {   
+        System.out.println("Greetings from Lesson 01");
+
+        //Task 1: Create a local (to this function) string variable called "Test Message" and assign it a value
+        String testMessage = "twenty four";
+
+        //Task 2: Print the variable out to the console
+        System.out.println(testMessage);
+
+        //Task 3: Add another string variable to this class. Give it a value and print it out the console
+        friedEgg = "Cooked";
+        System.out.println(friedEgg);
+
+        //Task 4: Create a new string variable and assign it the value of two other string variables with a space between the two values
+        String breakfast = friedEgg + " " + testMessage;
+        System.out.println(breakfast);
+
+        //Task 5: Assign one of the string variables a lower case value and then using a string class function display it as upper case
+        System.out.println(friedEgg.toUpperCase());
+
+        //Task 6: Perform the opposite of Task 5 with lower casing
+        System.out.println(friedEgg.toLowerCase());
+
+        //Task 7: Display the character length of a string variable
+        System.out.println("friedEgg is " + friedEgg.length() + " characters long");
+
+
+        //Task 8: Using the replace method of the String class, replace the first word of a string with another word. 
+        testMessage = testMessage.replace("four","five");
+        System.out.println(testMessage);
+
+        //Task 9: Create a string variable called "Different Words" with with five words in it and separate each of those words with a comma
+        String differentWords = "Awesome,amazing,outstanding,spectacular,cool";
+
+        //Task 10: Print the third word value in the "Different Words" string variable
+        System.out.println(differentWords.split(",")[2]);
+
+        //Task 11: Add '\n' to a string variable and print it out. What happened? 
+        System.out.println(testMessage + "\nGiovan");
+        
+    }
+
+}
