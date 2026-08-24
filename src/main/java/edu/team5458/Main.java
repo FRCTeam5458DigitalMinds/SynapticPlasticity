@@ -48,7 +48,7 @@ public class Main
                     Lesson04.StartLesson();
                     break;
                 case "jojo":
-                    JojoShow.StartShow();
+                    JoJoShow.StartShow();
                     break;
                 default:
                     System.out.println("Incorrect lesson number");
