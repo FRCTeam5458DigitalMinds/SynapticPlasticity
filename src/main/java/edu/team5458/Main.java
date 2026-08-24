@@ -6,6 +6,8 @@ package edu.team5458; //The Package this File is Associated with
 
 import edu.wjusd.*; //Import Required Training Classes
 
+import show.jojo.*; //Import Required Show Classes
+
 public class Main 
 {
     public static void main(String[] args) 
@@ -44,6 +46,9 @@ public class Main
                     break;
                 case "lesson04":
                     Lesson04.StartLesson();
+                    break;
+                case "jojo":
+                    JojoShow.StartShow();
                     break;
                 default:
                     System.out.println("Incorrect lesson number");

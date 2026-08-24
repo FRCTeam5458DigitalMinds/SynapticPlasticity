@@ -1,0 +1,47 @@
+public class Lesson02 {
+
+    public static int nTrainingHours;
+
+
+    public Lesson02()
+    {
+
+    }
+
+    public static void StartLesson()
+    {
+        System.out.println("\nStarting Lesson 02\n");
+        int task3 = 100;
+        int task4 = 5;
+
+        task4 = task3 / 10;
+        //Task 1: Try to add a value to the nTrainingHours variable. What happened? 
+        nTrainingHours = 67; 
+
+        System.out.println(nTrainingHours);
+        
+        //Task 2: Place the "static" modifier on the nTrainingHours variable
+        
+        //Task 3: Add another int variable to this function and set the value to 100
+
+        //Task 4: Create another int variable to this function and default it to 5
+
+        //Task 5: Set the value of the variable in Task 4 to the variable in Task 3 divided by 10
+
+        //Task 6: Print out all the local variables with a prefix of the variable name
+        System.out.println("task3 = " + task3);
+
+        //Task 7: Mutiply the variable in Task 3 by 5 and print the value
+        System.out.println(task3 * 5);
+
+        //Task 8: Minus the variable in Task 3 by 20 and print the value
+        System.out.println(task3 - 20);
+    
+        //Task 9: Create a new local variable and give it the modulus value of 200 % 75
+        int task9 = 200 % 75;
+        System.out.println(task9);
+
+
+    }
+
+}
