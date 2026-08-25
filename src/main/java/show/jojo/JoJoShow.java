@@ -3,12 +3,12 @@ package show.jojo;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class JojoShow 
+public class JoJoShow 
 {
 
     public String status;
 
-    public JojoShow()
+    public JoJoShow()
     {
 
     }
