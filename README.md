@@ -2,6 +2,8 @@
 
 A Java training repository for FRC Team 5458 (Digital Minds) developers, covering the fundamentals of object-oriented programming.
 
+This repository and its [lesson files](src/main/java/edu/wjusd) are designed for mentor-led training and are not intended for students to work through individually. 
+
 ### File Overview:
 
 - `src/main/java/edu/team5458/Main.java` — Entry point of the application.
@@ -13,7 +15,8 @@ A Java training repository for FRC Team 5458 (Digital Minds) developers, coverin
 - `src/main/java/com/giroux/energy/GE500.java` — Custom class for import example.
 - `src/main/java/com/horel/solutions/HS900.java` — Custom class for import and class access examples.
 - `src/main/java/com/horel/solutions/HS1200.java` — Custom class with builder example.
-- `src/main/java/edu/wjusd/Lesson*.java` — Java basics lesson class files
+- `src/main/java/edu/wjusd/Lesson*.java` — Java basics lesson class files.
+- `src/main/java/show/jojo/*.java` — Student developed custom classes based upon their favorite shows.
 
 ### Common Java Naming Scheme:
 
