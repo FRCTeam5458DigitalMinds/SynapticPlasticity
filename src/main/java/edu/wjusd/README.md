@@ -6,6 +6,7 @@ The lessons are designed to be worked on with a mentor present to answer questio
 - [Lesson 2 - Ints](./Lesson02.java)
 - [Lesson 3 - Doubles](./Lesson03.java)
 - [Lesson 4 - Booleans](./Lesson04.java)
+- [Lesson 5 - Conditional Statements](./Lesson05.java)
 
 ## Java Resources
 
@@ -61,3 +62,44 @@ The lessons are designed to be worked on with a mentor present to answer questio
 | `double` | Fractional numbers. Sufficient for storing 15 to 16 decimal digits | 
 | `boolean` | True or False values |
 | `String` | Collection of characters | 
+
+### Conditional Statements Examples
+```java
+//If Statement
+if(conditionIsTrue)
+{
+    System.out.println("It was true");
+}
+else if(thisConditionWasTrue)
+{
+    System.out.println("So, this was true");
+}
+else
+{
+    System.out.println("Neither above was true, so we are doing this");
+}
+
+//Switch Statement Check
+//Mixing Cases Just for Demo. In real code keep them same data type
+switch(conditionToCheck)
+{
+    case 1:
+        System.out.println("It was 1");
+        break;
+
+    case 2:
+        System.out.println("It was 2");
+        break;
+
+    case "Tuesday":
+        System.out.println("Tuesday it is");
+        break;
+
+    case "Friday":
+        System.out.println("You wish it was Friday");
+        break;
+
+    default:
+        System.out.println("What we do if case not found");
+}
+```
